@@ -78,8 +78,8 @@ The application uses a **Large Language Model (LLM)** from Groq, specifically `l
 
 ```
 .
-├── app.py          # Main Streamlit application file
-├── your_main_script.py # Your core LangChain logic
+├── app.py          # backend file
+├── frontend.py     # Streamlit logic
 ├── .env            # Environment variables
 ├── data/           # Directory to place your test invoices
 ├── requirements.txt
